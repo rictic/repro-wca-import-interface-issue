@@ -1,0 +1,9 @@
+{
+  "name": "repro-ptb",
+  "scripts": {
+    "test": "wca analyze && echo '\n\nNote how <extends-imported> does not have a checked property'"
+  },
+  "dependencies": {
+    "web-component-analyzer": "^0.1.10"
+  }
+}
